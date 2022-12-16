@@ -1,0 +1,19 @@
+{
+  "subscriptions": {
+    "REST": {
+      "device": "http://192.168.100.126:8080/devices/subscription",
+      "service": "http://192.168.100.126:8080/services/subscription",
+      "user": "http://192.168.100.126:8080/users/subscription"
+    },
+    "MQTT": {
+      "device": {
+        "hostname": "test.mosquitto.org",
+        "port": "1883",
+        "topic": "/tiot/16/catalog/devices/subscription"
+      }
+    }
+  },
+  "devices": {},
+  "services": {},
+  "users": {}
+}
